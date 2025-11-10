@@ -9,8 +9,8 @@ producto=primero*segundo
 
 division=primero/segundo
 
-print("suma: " + suma)
-print("resta: " + resta)
-print("producto: " + producto)
-print("division: "+ division)
+print(suma)
+print(resta)
+print(producto)
+print(division)
 
