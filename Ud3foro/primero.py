@@ -3,11 +3,13 @@ asteriscos = "*"
 
 
 numero = int(input("Introduce un numero: "))
-print(espacio*(numero+1),asteriscos)
-for i in range(0, numero):
-    print(espacio* (numero - i), asteriscos, espacio*(i-1) ,asteriscos)
+print(espacio*(numero),asteriscos)
+for i in range(1,numero):
+    print(espacio*(numero-i)+asteriscos+espacio*(i-1),asteriscos)
 
-
+for k in range(numero,0,-1):
+    print(espacio*(numero-k)+asteriscos+espacio*(k-1),asteriscos)
+print(espacio*(numero),asteriscos)
 
 
 
