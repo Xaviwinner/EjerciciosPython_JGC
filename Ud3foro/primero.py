@@ -1,13 +1,10 @@
-
-espacio=" "
-asteriscos="*"
-
-
-numero = int(input("Introduce un numero"))
+espacio = " "
+asteriscos = "*"
 
 
-
-
+numero = int(input("Introduce un numero: "))
+for i in range(1, numero + 1):
+    print(espacio* (numero + 0), asteriscos)
 
 
 
