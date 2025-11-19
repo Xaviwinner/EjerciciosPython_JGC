@@ -1,17 +1,17 @@
-suma_pares = 0
-suma_impares = 0
+pares = 0
+impares = 0
 for n in range(100, 201):
 
     if n % 2 == 0:
 
-        suma_pares += n
+        pares += n
 
     else:
 
-        suma_impares += n
+        impares += n
 
 
-print("suma total pare:", suma_pares)
+print("suma total pare:", pares)
 
 
-print("suma total impares:", suma_impares)
+print("suma total impares:", impares)

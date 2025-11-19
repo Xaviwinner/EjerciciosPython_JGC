@@ -1,4 +1,4 @@
-nota_10 = False  
+dieces = False  
 
 while True:
     nota = float(input("mete una nota: "))
@@ -6,8 +6,8 @@ while True:
     if nota == -1:
         break 
     if nota == 10:
-        nota_10 = True
-if nota_10:
-    print("Sí hubo al menos una nota con valor 10.")
+        dieces = True
+if dieces:
+    print("Sí hubo dieces")
 else:
-    print("No hubo ninguna nota con valor 10.")
+    print("No hubo ninguna dieces")
