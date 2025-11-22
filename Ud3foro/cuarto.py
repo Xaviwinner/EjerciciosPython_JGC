@@ -11,5 +11,4 @@ for bloques in range(numero):
                 linea += asterisco * 3
             else: 
                 linea += espacio * 3
-            linea += espacio
         print(linea)
