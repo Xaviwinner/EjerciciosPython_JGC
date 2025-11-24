@@ -1,4 +1,3 @@
-""" lea dos números y nos diga cual es mayor o si son iguales"""
 
 
 primero = int(input("Ingrese el primero:"))

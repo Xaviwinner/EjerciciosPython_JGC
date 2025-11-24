@@ -1,10 +1,10 @@
 negativo = False
 positivo=0
 negativo=0
-print("Ingrese 100 números :")
+print("Mete 100 números :")
 
 for i in range(1, 101):
-    numerp = float(input("Ingrese el número : "))
+    numerp = float(input("Mete el número : "))
     if numerp == 0:
        break
     if numerp < 0:

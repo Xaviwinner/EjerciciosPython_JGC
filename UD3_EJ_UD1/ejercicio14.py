@@ -1,5 +1,5 @@
-primero = int(input("Ingrese el primero:"))
-segundo = int(input("Ingrese el segundo:"))
+primero = int(input("Mete el primero:"))
+segundo = int(input("Mete el segundo:"))
 
 
 suma= primero +segundo

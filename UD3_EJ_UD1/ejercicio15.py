@@ -1,7 +1,6 @@
-"""programa que lee dos números y muestra el mayor"""
 
-primero = int(input("Ingrese el primero:"))
-segundo = int(input("Ingrese el segundo:"))
+primero = int(input("Mete el primero:"))
+segundo = int(input("mETE el segundo:"))
 
 if primero > segundo:
     print("el peimero es mayor")
