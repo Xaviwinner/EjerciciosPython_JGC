@@ -1,13 +1,13 @@
-espacio = " "
-asteriscos = "*"
+espacio=" "
+asterisco="*"
+numero=int(input("escribe un numero:"))
 
 
-numero = int(input("Introduce un numero: "))
-print(espacio*(numero-1),asteriscos)
+print((espacio*(numero+1))+asterisco)
+for i in range(0,numero):
+    print(((numero-i)*espacio+asterisco)+((espacio+(i*espacio)*2)+asterisco))
 
-for j in range(1,numero):
-    print(espacio*(numero-j)+asteriscos+espacio*(j-1)+espacio*(j-1),asteriscos)
-for k in range(numero,0,-1):
-    print(espacio*(numero-k)+asteriscos+espacio*(k-1)+espacio*(k-1),asteriscos)
-
-print(espacio*(numero-1),asteriscos)
+for k in range(1,numero+1):
+    print(((k*espacio)+asterisco)+espacio+((numero-k)*2)*espacio+asterisco)
+    
+print((espacio*(numero+1))+asterisco)
