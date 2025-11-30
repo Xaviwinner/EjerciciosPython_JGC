@@ -11,4 +11,4 @@ for i in range(1, N + 1):
 
     total += sueldo
 
-print("\nPago total de la empresa:", total, "euros")
+print("\nPago total de la empresa:", total)

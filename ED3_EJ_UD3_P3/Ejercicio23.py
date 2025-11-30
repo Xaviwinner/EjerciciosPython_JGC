@@ -5,4 +5,4 @@ if num2 != 0:
     division = num1 / num2
     print(" resultado :", division)
 else:
-    print("No se puede dividir entre 0.")
+    print("No dividir entre 0.")

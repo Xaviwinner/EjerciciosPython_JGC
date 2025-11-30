@@ -7,6 +7,5 @@ pago = float(input("mete el pago por hora: "))
 
 sueldo = horasT * pago
 
-# Resultados
 print("Total de horas", horasT)
 print("Sueldo:", sueldo)

@@ -8,4 +8,4 @@ media = (p1 + p2 + p3) / 3
 
 nota = (media * 0.55) + (examen * 0.30) + (trabajo * 0.15)
 
-print("La nota final es:", nota)
+print(" nota final :", nota)
