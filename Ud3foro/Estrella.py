@@ -1,11 +1,11 @@
-espacio = " "
-asterisco = "*"
-n = int(input("Mete un numero "))
+asterisco="*"
+espacio=" "
+numero=int(input("escribe un numero"))
 
-for i in range(0,n//2):
-    print(espacio * i +asterisco +espacio * (n//2 - i - 1) +asterisco +espacio * (n//2 - i - 1) +asterisco)
+for i in range(1,numero):
+    print(((espacio*i)+asterisco)+((espacio*(numero-i))+asterisco)+(espacio*((numero-i))+asterisco))
 
-print(asterisco * n)
+print(asterisco*((numero*2)+2))
 
-for i in range(n//2 - 1, -1, -1):
-    print(espacio * i +asterisco +espacio * (n//2 - i - 1) +asterisco +espacio * (n//2 - i - 1) +asterisco)
+for j in range(1,numero):
+    print((espacio*((numero-j))+asterisco)+(espacio*j+asterisco)+(espacio*j+asterisco))
