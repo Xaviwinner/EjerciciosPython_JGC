@@ -1,14 +1,12 @@
-punto = "."
-asterisco = "*"
-n = int(input("Mete un numero "))
-print(punto*n)
+asterisco="*"
+puntos="."
+numero=int(input("escribe un numero"))
+print(((numero*2)+3)*puntos)
+for i in range(1,numero):
+    print(((puntos*i)+asterisco)+((puntos*(numero-i))+asterisco)+(puntos*((numero-i))+asterisco)+puntos*(i))
 
-for i in range(0,n//2):
-    print(punto * i +asterisco +punto * (n//2 - i - 1) +asterisco +punto * (n//2 - i - 1) +asterisco+punto*i)
+print(asterisco*((numero*2)+3))
 
-print(asterisco * n)
-
-for i in range(n//2 - 1, -1, -1):
-    print(punto * i +asterisco +punto * (n//2 - i - 1) +asterisco +punto * (n//2 - i - 1) +asterisco+punto*i)
-      
-print(punto*n)
+for j in range(1,numero):
+    print((puntos*((numero-j))+asterisco)+(puntos*j+asterisco)+(puntos*j+asterisco)+puntos*(numero-j))
+print(((numero*2)+3)*puntos)
