@@ -1,7 +1,6 @@
-
-nombre = input("trabajador: ")
-horas = float(input("Horas trabajadas  "))
-salario = float(input("Tarifa : "))
+nombre = input("Trabajador: ")
+horas = float(input("Horas trabajadas: "))
+salario = float(input("Tarifa: "))
 
 if horas <= 35:
     bruto = horas * salario
@@ -28,7 +27,6 @@ if exceso > 0:
 
 neto = bruto - impuestos
 
-print(f"Trabajador: "+nombre)
-print(f"Salario bruto: "+bruto)
-print(f"Impuestos: "+impuestos)
-print(f"Salario neto: "+neto)
+print(f"Salario bruto: {bruto:.2f} €")
+print(f"Impuestos: {impuestos:.2f} €")
+print(f"Salario neto: {neto:.2f} €")

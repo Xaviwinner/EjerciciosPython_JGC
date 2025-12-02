@@ -1,16 +1,19 @@
-negativo = False
-positivo=0
-negativo=0
-print("Mete 100 números :")
+positivos = 0
+negativos = 0
+
+print("Mete 100 números:")
 
 for i in range(1, 101):
-    numerp = float(input("Mete el número : "))
-    if numerp == 0:
-       break
+    numerp = float(input("Mete el número: "))
+
+    while numerp == 0:
+        print("El número no puede ser 0. Intente de nuevo.")
+        numerp = float(input("Mete el número: "))
+
     if numerp < 0:
-        negativo = True
-        negativo+1
+        negativos += 1
     else:
-        positivo+1
-    print("cantidad de negativos",negativo)
-    print("cantidad de positivos"+positivo)
+        positivos += 1
+
+print("Cantidad de negativos:", negativos)
+print("Cantidad de positivos:", positivos)

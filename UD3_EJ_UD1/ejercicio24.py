@@ -1,7 +1,9 @@
-suma=0
-producto=1
+suma = 0
+producto = 1
+
 for i in range(1, 11):
-    suma =suma+i
-print(suma)
-producto=producto*i
-print(producto)
+    suma += i
+    producto *= i
+
+print("La suma es:", suma)
+print("El producto es:", producto)

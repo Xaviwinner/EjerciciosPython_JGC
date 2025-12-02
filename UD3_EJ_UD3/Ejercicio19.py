@@ -1,14 +1,26 @@
-numero = int(input("Introduce lo que quieras hacer:1. introducir dinero 2. sacar dinero 3. salir"))
-nuevacantidad=0
-dineromaximo=10000
-if numero ==1:
-    introducir = int(input("Introduce la cantidad que quieres meter"))
-    nuevacantidad=dineromaximo+introducir
-    print("esta es tu cantidad final:",nuevacantidad)
-elif numero==2:
-    sacar = int(input("Introduce la cantidad que quieres sacar"))
-    nuevacantidad=dineromaximo-sacar
-    print("esta es tu cantidad final:",nuevacantidad)
+saldo = 10000
+
+print("1. Introducir dinero")
+print("2. Sacar dinero")
+print("3. Salir")
+
+opcion = int(input("Elige una opción: "))
+
+if opcion == 1:
+    introducir = float(input("Cantidad a ingresar: "))
+    saldo += introducir
+    print("Cantidad final:", saldo)
+
+elif opcion == 2:
+    sacar = float(input("Cantidad a sacar: "))
+    if sacar > saldo:
+        print("No tienes suficiente dinero.")
+    else:
+        saldo -= sacar
+        print("Cantidad final:", saldo)
+
+elif opcion == 3:
+    print("Has salido del programa.")
 
 else:
-        print("te has salido")
+    print("Opción no válida.")

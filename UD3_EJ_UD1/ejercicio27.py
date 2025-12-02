@@ -1,13 +1,15 @@
-dieces = False  
+hubo_diez = False  
 
 while True:
-    nota = float(input("mete una nota: "))
+    nota = float(input("Mete una nota: "))
 
     if nota == -1:
         break 
+
     if nota == 10:
-        dieces = True
-if dieces:
+        hubo_diez = True
+
+if hubo_diez:
     print("Sí hubo dieces")
 else:
-    print("No hubo ninguna dieces")
+    print("No hubo ningún diez")

@@ -5,8 +5,8 @@ vocales = "aeiouAEIOU"
 
 for c in texto:
     if c in vocales:
-        nuevo += c + c  
+        nuevo += "*"
     else:
-        nuevo += c     
+        nuevo += c
 
 print("Nueva cadena:", nuevo)
